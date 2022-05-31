@@ -12,15 +12,15 @@ const AddProduct = () => {
 
   return (
     <>
-      <Button my={4} data-cy="add-product-button"></Button>
-      <Modal>
-        <ModalBody pb={6}>
-          <Input data-cy="add-product-title" />
-          <Select data-cy="add-product-category">
+      <button my={4} data-cy="add-product-button">Add product</button>
+      {/* <Modal> */}
+        {/* <ModalBody pb={6}> */}
+          <input data-cy="add-product-title" />
+          <select data-cy="add-product-category">
             <option data-cy="add-product-category-shirt"></option>
             <option data-cy="add-product-category-pant"></option>
             <option data-cy="add-product-category-jeans"></option>
-          </Select>
+          </select>
           <RadioGroup data-cy="add-product-gender">
             <Radio data-cy="add-product-gender-male"></Radio>
             <Radio data-cy="add-product-gender-female"></Radio>
@@ -28,8 +28,8 @@ const AddProduct = () => {
           </RadioGroup>
           <Input data-cy="add-product-price" />
           <Button data-cy="add-product-submit-button"></Button>
-        </ModalBody>
-      </Modal>
+        {/* </ModalBody> */}
+      {/* </Modal> */}
     </>
   );
 };

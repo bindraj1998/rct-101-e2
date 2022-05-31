@@ -1,0 +1,26 @@
+.flex{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    /* border: 1px solid red; */
+    gap:20px;
+    margin-bottom: 20px;
+}
+.button{
+display: flex;
+/* border: 1px solid red; */
+width: 30%;
+margin: auto;
+justify-content: space-between;
+}
+.div{
+    display: flex;
+    justify-content: space-between;
+}
+.a{
+   margin: auto; 
+   margin-left: 40%;
+}
+.s{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
